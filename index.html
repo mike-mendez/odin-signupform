@@ -6,7 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script async defer src="script.js"></script>
-    <title>Document</title>
+    <title>Sign-Up Form</title>
   </head>
-  <body></body>
+  <body>
+    <section id="left">
+      <div id="logo-container">
+        <img src="./odin-lined.png" alt="The Odin Project Logo" id="logo-img" />
+        <p id="logo-text">ODIN</p>
+      </div>
+      <footer id="image-credits">
+        Photo by
+        <a
+          href="https://unsplash.com/ko/@caitellis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Cait Ellis</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/Erld-XTqXv0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </footer>
+    </section>
+    <section id="right">
+      <div id="right-header">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started. You know you want to.
+        </p>
+      </div>
+      <div id="form-container">
+        <p>Let's do this!</p>
+        <form action="" method="get">
+          <div id="inputs-container">
+            <label for="">FIRST NAME</label>
+            <input type="text" name="first-name" placeholder="Thor" />
+
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" placeholder="Odinson" />
+
+            <label for="email">EMAIL</label>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              placeholder="thorodinson@asgard.io"
+            />
+
+            <label for="phone-number">PHONE NUMBER</label>
+            <input
+              type="number"
+              name="phone-number"
+              id="phone-input"
+              placeholder="1234567890"
+            />
+
+            <label for="pwd">PASSWORD</label>
+            <input type="password" name="pwd" id="pwd-input" />
+
+            <label for="pwd-confirm">CONFIRM PASSWORD</label>
+            <input type="password" name="pwd-confirm" id="pwd-confirm-input" />
+          </div>
+
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+      <p>Already have an account? <span>Log in</span></p>
+    </section>
+  </body>
 </html>

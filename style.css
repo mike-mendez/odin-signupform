@@ -3,3 +3,64 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  background-color: #088;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90vh;
+
+  margin: 0;
+}
+
+#left {
+  height: 100%;
+  width: 100%;
+  background-image: url("/cait-ellis-Erld-XTqXv0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#logo-container {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+  padding: 1rem 0;
+}
+
+#logo-img {
+  width: 6rem;
+}
+
+#logo-text {
+  font-family: "Norse-Bold";
+  font-size: 6rem;
+  color: #fff;
+}
+
+#image-credits, a {
+  color: #fffefe;
+}
+
+#image-credits {
+  margin-bottom: 1rem;
+}
