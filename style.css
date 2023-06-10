@@ -135,6 +135,23 @@ input:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.error {
+  outline: none; /* Remove the default focus outline */
+  -webkit-focus-ring-color: red; /* Change the focus ring color for Mac browsers */
+  border-color: red;
+}
+
+#pwd-input-container {
+  position: relative;
+}
+
+#pwd-error {
+  color: red;
+  font-size: 0.8rem;
+
+  visibility: hidden;
+}
+
 #right-footer {
   padding-left: 2rem;
 }
@@ -143,6 +160,8 @@ input:focus {
   background-color: #596d48;
   color: #fff;
   font-weight: 900;
+
+  border: 2px solid #596d48;
 
   width: fit-content;
 
@@ -153,6 +172,15 @@ input:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
   cursor: pointer;
+
+  transition: all linear 0.1s;
+}
+
+#submit-button:hover {
+  background-color: #fff;
+  color: #596d48;
+
+  border: 2px solid #596d48;
 }
 
 #footer-text {
